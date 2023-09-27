@@ -9,13 +9,14 @@ a {
   text-decoration: none;
 }
 
-header {
+#web {
   background: rgba(8, 3, 37, 0.4);
   position: fixed;
   z-index: 1;
   width: 100%;
+  display: block;
 }
-header .container {
+#web .container {
   padding: 20px 15px;
   display: flex;
   align-items: center;
@@ -25,20 +26,20 @@ header .container {
   margin-left: auto;
   font-size: 14px;
 }
-header .container .logo {
+#web .container .logo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-header .container .logo .navbar-brand img {
+#web .container .logo .navbar-brand img {
   height: 2rem;
 }
-header .container .logo #main-menu {
+#web .container .logo #main-menu {
   display: flex;
   align-items: flex-start;
   padding-left: 20px;
 }
-header .container .logo #main-menu li:nth-child(1) {
+#web .container .logo #main-menu li:nth-child(1) {
   padding-right: 1.5rem;
   list-style: none;
   display: flex;
@@ -47,7 +48,7 @@ header .container .logo #main-menu li:nth-child(1) {
   cursor: pointer;
   position: relative;
 }
-header .container .logo #main-menu li:nth-child(1) div {
+#web .container .logo #main-menu li:nth-child(1) div {
   position: absolute;
   left: 0;
   top: 55px;
@@ -63,7 +64,7 @@ header .container .logo #main-menu li:nth-child(1) div {
   flex-direction: column;
   gap: 1rem;
 }
-header .container .logo #main-menu li:nth-child(1) div span {
+#web .container .logo #main-menu li:nth-child(1) div span {
   font-size: 16px;
   text-transform: none;
   font-weight: 600;
@@ -71,7 +72,7 @@ header .container .logo #main-menu li:nth-child(1) div span {
   cursor: pointer;
   transition: 0.3s;
 }
-header .container .logo #main-menu li:nth-child(1):hover div {
+#web .container .logo #main-menu li:nth-child(1):hover div {
   display: block;
   opacity: 1;
   visibility: visible;
@@ -79,20 +80,20 @@ header .container .logo #main-menu li:nth-child(1):hover div {
   flex-direction: column;
   gap: 1rem;
 }
-header .container .logo #main-menu li:nth-child(1) a {
+#web .container .logo #main-menu li:nth-child(1) a {
   color: #fff;
 }
-header .container .logo #main-menu li:nth-child(1) i {
+#web .container .logo #main-menu li:nth-child(1) i {
   color: #fff;
   padding-left: 5px;
   font-size: 8px;
   vertical-align: middle;
 }
-header .container .logo #main-menu li:nth-child(1) span {
+#web .container .logo #main-menu li:nth-child(1) span {
   color: rgba(255, 255, 255, 0.5);
   font-size: 10px;
 }
-header .container .logo #main-menu li:nth-child(2) {
+#web .container .logo #main-menu li:nth-child(2) {
   padding-right: 1.5rem;
   list-style: none;
   display: flex;
@@ -101,7 +102,7 @@ header .container .logo #main-menu li:nth-child(2) {
   cursor: pointer;
   position: relative;
 }
-header .container .logo #main-menu li:nth-child(2) div {
+#web .container .logo #main-menu li:nth-child(2) div {
   position: absolute;
   left: 0;
   top: 55px;
@@ -117,7 +118,7 @@ header .container .logo #main-menu li:nth-child(2) div {
   flex-direction: column;
   gap: 1rem;
 }
-header .container .logo #main-menu li:nth-child(2) div span {
+#web .container .logo #main-menu li:nth-child(2) div span {
   font-size: 16px;
   text-transform: none;
   font-weight: 600;
@@ -125,7 +126,7 @@ header .container .logo #main-menu li:nth-child(2) div span {
   cursor: pointer;
   transition: 0.3s;
 }
-header .container .logo #main-menu li:nth-child(2):hover div {
+#web .container .logo #main-menu li:nth-child(2):hover div {
   display: block;
   opacity: 1;
   visibility: visible;
@@ -133,20 +134,20 @@ header .container .logo #main-menu li:nth-child(2):hover div {
   flex-direction: column;
   gap: 1rem;
 }
-header .container .logo #main-menu li:nth-child(2) a {
+#web .container .logo #main-menu li:nth-child(2) a {
   color: #fff;
 }
-header .container .logo #main-menu li:nth-child(2) i {
+#web .container .logo #main-menu li:nth-child(2) i {
   color: #fff;
   padding-left: 5px;
   font-size: 8px;
   vertical-align: middle;
 }
-header .container .logo #main-menu li:nth-child(2) span {
+#web .container .logo #main-menu li:nth-child(2) span {
   color: rgba(255, 255, 255, 0.5);
   font-size: 10px;
 }
-header .container .logo #main-menu li:nth-child(3) {
+#web .container .logo #main-menu li:nth-child(3) {
   padding-right: 1.5rem;
   list-style: none;
   display: flex;
@@ -155,7 +156,7 @@ header .container .logo #main-menu li:nth-child(3) {
   cursor: pointer;
   position: relative;
 }
-header .container .logo #main-menu li:nth-child(3) div {
+#web .container .logo #main-menu li:nth-child(3) div {
   position: absolute;
   left: 0;
   top: 55px;
@@ -171,7 +172,7 @@ header .container .logo #main-menu li:nth-child(3) div {
   flex-direction: column;
   gap: 1rem;
 }
-header .container .logo #main-menu li:nth-child(3) div span {
+#web .container .logo #main-menu li:nth-child(3) div span {
   font-size: 16px;
   text-transform: none;
   font-weight: 600;
@@ -179,7 +180,7 @@ header .container .logo #main-menu li:nth-child(3) div span {
   cursor: pointer;
   transition: 0.3s;
 }
-header .container .logo #main-menu li:nth-child(3):hover div {
+#web .container .logo #main-menu li:nth-child(3):hover div {
   display: block;
   opacity: 1;
   visibility: visible;
@@ -187,20 +188,20 @@ header .container .logo #main-menu li:nth-child(3):hover div {
   flex-direction: column;
   gap: 1rem;
 }
-header .container .logo #main-menu li:nth-child(3) a {
+#web .container .logo #main-menu li:nth-child(3) a {
   color: #fff;
 }
-header .container .logo #main-menu li:nth-child(3) i {
+#web .container .logo #main-menu li:nth-child(3) i {
   color: #fff;
   padding-left: 5px;
   font-size: 8px;
   vertical-align: middle;
 }
-header .container .logo #main-menu li:nth-child(3) span {
+#web .container .logo #main-menu li:nth-child(3) span {
   color: rgba(255, 255, 255, 0.5);
   font-size: 10px;
 }
-header .container .logo #main-menu li:nth-child(4) {
+#web .container .logo #main-menu li:nth-child(4) {
   padding-right: 1.5rem;
   list-style: none;
   display: flex;
@@ -209,7 +210,7 @@ header .container .logo #main-menu li:nth-child(4) {
   cursor: pointer;
   position: relative;
 }
-header .container .logo #main-menu li:nth-child(4) div {
+#web .container .logo #main-menu li:nth-child(4) div {
   position: absolute;
   left: 0;
   top: 55px;
@@ -225,7 +226,7 @@ header .container .logo #main-menu li:nth-child(4) div {
   flex-direction: column;
   gap: 1rem;
 }
-header .container .logo #main-menu li:nth-child(4) div span {
+#web .container .logo #main-menu li:nth-child(4) div span {
   font-size: 16px;
   text-transform: none;
   font-weight: 600;
@@ -233,7 +234,7 @@ header .container .logo #main-menu li:nth-child(4) div span {
   cursor: pointer;
   transition: 0.3s;
 }
-header .container .logo #main-menu li:nth-child(4):hover div {
+#web .container .logo #main-menu li:nth-child(4):hover div {
   display: block;
   opacity: 1;
   visibility: visible;
@@ -241,24 +242,24 @@ header .container .logo #main-menu li:nth-child(4):hover div {
   flex-direction: column;
   gap: 1rem;
 }
-header .container .logo #main-menu li:nth-child(4) a {
+#web .container .logo #main-menu li:nth-child(4) a {
   color: #fff;
 }
-header .container .logo #main-menu li:nth-child(4) i {
+#web .container .logo #main-menu li:nth-child(4) i {
   color: #fff;
   padding-left: 5px;
   font-size: 8px;
   vertical-align: middle;
 }
-header .container .logo #main-menu li:nth-child(4) span {
+#web .container .logo #main-menu li:nth-child(4) span {
   color: rgba(255, 255, 255, 0.5);
   font-size: 10px;
 }
-header .container #navbar #navbar-right {
+#web .container #navbar #navbar-right {
   display: flex;
   align-items: flex-start;
 }
-header .container #navbar #navbar-right li {
+#web .container #navbar #navbar-right li {
   list-style: none;
   padding-left: 1.5rem;
   display: flex;
@@ -267,23 +268,19 @@ header .container #navbar #navbar-right li {
   cursor: pointer;
   position: relative;
 }
-header .container #navbar #navbar-right li div {
+#web .container #navbar #navbar-right li div {
+  display: none;
   position: absolute;
   right: 0;
   top: 55px;
-  padding: 10px 20px;
-  opacity: 0;
-  visibility: hidden;
+  background-color: #5f5959;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px;
   background: rgba(8, 3, 37, 0.5647058824);
-  transition: 0.3s;
-  border-radius: 4px;
-  min-width: 200px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  padding: 12px 16px;
+  z-index: 1;
 }
-header .container #navbar #navbar-right li div span {
+#web .container #navbar #navbar-right li div span {
   font-size: 16px;
   text-transform: none;
   font-weight: 600;
@@ -291,23 +288,18 @@ header .container #navbar #navbar-right li div span {
   cursor: pointer;
   transition: 0.3s;
 }
-header .container #navbar #navbar-right li:hover div {
+#web .container #navbar #navbar-right li:hover div {
   display: block;
-  opacity: 1;
-  visibility: visible;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
 }
-header .container #navbar #navbar-right li a {
+#web .container #navbar #navbar-right li a {
   color: #fff;
 }
-header .container #navbar #navbar-right li .icons {
+#web .container #navbar #navbar-right li .icons {
   padding-left: 5px;
   font-size: 8px;
   vertical-align: middle;
 }
-header .container #navbar #navbar-right li span {
+#web .container #navbar #navbar-right li span {
   color: rgba(255, 255, 255, 0.5);
   font-size: 10px;
 }
@@ -928,6 +920,7 @@ footer .copyright {
 #store .all .right {
   width: 78%;
   margin-left: 50px;
+  margin-bottom: 50px;
 }
 #store .all .right .shop-main {
   color: #fff;
@@ -972,4 +965,145 @@ footer .copyright {
 }
 #store .all .right .description .images .image img {
   width: 100%;
+}
+#store .all .right .additional h2 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 33px;
+  margin: 20px 0;
+}
+#store .all .right .additional table {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+  color: #fff;
+}
+#store .all .right .additional table th, #store .all .right .additional table td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 8px;
+  text-align: left;
+}
+#store .all .right .additional table th {
+  background-color: #f2f2f2;
+}
+#store .all .right .requirements h2 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 33px;
+  margin: 20px 0;
+}
+#store .all .right .requirements .accordion {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+#store .all .right .requirements .accordion .accordion-item {
+  margin-bottom: 10px;
+}
+#store .all .right .requirements .accordion .accordion-item .accordion-header {
+  background-color: rgba(176, 161, 255, 0.18);
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  transform: skew(-7deg);
+}
+#store .all .right .requirements .accordion .accordion-item .accordion-content {
+  display: none;
+  padding: 10px;
+  font-size: 14px;
+}
+#store .all .right .reviews h2 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 33px;
+  margin: 20px 0;
+}
+#store .all .right .reviews h2 small {
+  font-weight: 400;
+  line-height: 1;
+  color: #777;
+  font-size: 65%;
+}
+#store .all .right .reviews .avatar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#store .all .right .reviews .avatar img {
+  border-radius: 50%;
+  height: 50px;
+  margin-right: 10px;
+}
+#store .all .right .reviews .avatar .avatar-info {
+  color: rgba(255, 255, 255, 0.4745098039);
+}
+#store .all .right .reviews .avatar .avatar-info p {
+  color: #fff;
+}
+#store .all .right .reviews .avatar .avatar-info i {
+  font-size: 13px;
+  margin-right: 5px;
+  color: rgba(255, 255, 255, 0.4745098039);
+}
+#store .all .right .reviews .description {
+  color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-size: 14px;
+  border-top: 1px dotted rgba(255, 255, 255, 0.2549019608);
+}
+#store .all .right .reviews .description p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#store .all .right .reviews .description ul {
+  margin-left: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  list-style-type: circle;
+}
+#store .all .right .form {
+  margin: 70px 0 50px 0;
+}
+#store .all .right .form h2 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 33px;
+  margin: 20px 0;
+}
+#store .all .right .form form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+#store .all .right .form form input {
+  width: 100%;
+  height: 30px;
+  transform: skew(-7deg);
+  background-color: rgba(176, 161, 255, 0.18);
+  border: none;
+  padding: 20px;
+}
+#store .all .right .form form textarea {
+  width: 100%;
+  transform: skew(-7deg);
+  background-color: rgba(176, 161, 255, 0.18);
+  border: none;
+  padding: 20px;
+}
+#store .all .right .form form button {
+  color: #fff;
+  font-weight: 300;
+  border: 1px solid #fff;
+  padding: 8px 20px;
+  margin-right: 40px;
+  transition: 0.3s;
+  transform: skew(-7deg);
+  background-color: transparent;
+}
+#store .all .right .form form button:hover {
+  border: 1px solid #d92b4c;
+  background-color: #d92b4c;
 }/*# sourceMappingURL=style.css.map */

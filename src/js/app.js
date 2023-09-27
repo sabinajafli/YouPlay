@@ -1,3 +1,19 @@
+const accordionItems = document.querySelectorAll('.accordion-item');
+const accordionHeaders = document.querySelectorAll('.accordion-header');
+
+accordionHeaders.forEach((header, index) => {
+  header.addEventListener('click', () => {
+    accordionItems[index].classList.toggle('active');
+    const content = accordionItems[index].querySelector('.accordion-content');
+    if (content.style.display === 'block') {
+      content.style.display = 'none';
+    } else {
+      content.style.display = 'block';
+    }
+  });
+});
+
+
 const home = document.querySelector("#home");
 const previous = document.querySelector(".previous");
 const next = document.querySelector(".next");
@@ -148,8 +164,7 @@ slider.oninput = function() {
   output.innerHTML = this.value;
 };
 
-document.getElementById("quantity").addEventListener("change", function() {
-    if (this.value < 1) {
-      this.value = 1;
-    }
-  });
+
+
+
+  
